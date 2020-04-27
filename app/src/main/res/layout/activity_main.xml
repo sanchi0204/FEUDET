@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/forest"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/alert"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/main_text"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/forest"
+        android:fontFamily="@font/cambo"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/main_text"/>
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/fire_DETECT"
+        android:fontFamily="@font/cambo"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/main_text"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorWhite"
+        />
+
+
+
+</RelativeLayout>

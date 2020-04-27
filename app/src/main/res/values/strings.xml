@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Andriot</string>
+    <string name="text">Forest Fire Disaster Alert</string>
+    <string name="city">Delhi</string>
+    <string name="latitude">20.27</string>
+    <string name="longitude">20.27</string>
+    <string name="state">Uttar Pradesh</string>
+    <string name="country">Country</string>
+    <string name="aqius">50.80</string>
+    <string name="aqicn">87.87</string>
+    <string name="aqius_text">United States</string>
+    <string name="aqicn_text">China</string>
+    <string name="aqi">Air Quality Index</string>
+    <string name="time_stamp_text">Time Stamp</string>
+    <string name="time_stamp">3.00</string>
+    <string name="pollution">Pollution</string>
+    <string name="aqius1">aqius</string>
+    <string name="aqicn1">aqicn</string>
+    <string name="data_at_time">Data At Time</string>
+    <string name="aqius2">aqius-</string>
+    <string name="aqicn2">aqicn-</string>
+
+    <string name="weather_impact">Impact on Weather</string>
+    <string name="air_pressure">87.87</string>
+    <string name="air_pressure_text">Air Pressure</string>
+    <string name="humidity">87.87</string>
+    <string name="humidity_text">Humidity</string>
+    <string name="wind_speed">87.87</string>
+    <string name="wind_speed_text">Wind Speed</string>
+    <string name="wind_direction">87.87</string>
+    <string name="wind_direction_text">Wind Direction</string>
+    <string name="weather">Weather</string>
+    <string name="temp">40</string>
+    <string name="temp_text">C</string>
+    <string name="fire">Fire Detection Application</string>
+    <string name="forest">FOREST</string>
+    <string name="fire_DETECT">FIRE DETECTOR</string>
+    <string name="title_activity_fire_map">Map</string>
+</resources>
